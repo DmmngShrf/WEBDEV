@@ -19,6 +19,7 @@
 </style>
 <body>
     <h1>WELCOME TO MY SOUL SOCIETY</h1>
+    <h1>WELCOME TO MY SOUL SOCIETY</h1>
     <table border="1">
         <thead>
             <tr>
