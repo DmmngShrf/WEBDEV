@@ -1,0 +1,156 @@
+.body{
+  background: radial-gradient(circle at 10% 20%, rgb(178, 178, 212) 0%, rgb(253, 222, 249) 79.5%);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 450px;
+    border-radius: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: pink;
+    font-size: large;
+  }
+  
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .flex-column > label {
+    color:pink;
+    font-style: bold;
+    font-style: italic;
+  }
+  
+  .inputForm {
+    border: 2px solid pink;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .input {
+    margin-left: 12px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: none;
+    width: 85%;
+    height: 100%;
+    font-size: 15;
+    color: lightcoral;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .inputForm:focus-within {
+    border: 1.5px solid pink;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: pink;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0.rem #dfd9d9;
+    cursor: pointer;
+  }
+  
+     button:hover:not(:disabled) {
+      background: lightcoral;
+      color: white;
+      text-shadow: 0 0.1rem #bcb4b4;
+  }
+     
+     button:disabled {
+      cursor: auto;
+      color: pink;
+  }
+  
+  .p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border-radius: 50%;
+    display: inline-block;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid pink;
+    background-color: pink;
+    cursor: pointer;
+    transition: 0.2s ease-in-out
+    
+    }
+  
+  .btn:hover {
+    border: 1px solid gray
+
+  }
+  .checkboxx{
+    accent-color: pink;
+  }
+  .svg{
+    fill: pink;
+  }
+.reg{
+  text-align: center;
+}
+.error-message {
+  color: pink;
+  text-align: center;
+}
